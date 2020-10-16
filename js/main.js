@@ -37,15 +37,30 @@
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby (Paolo, Fabio, Lorenzo)
 // Chiedi all’utente il suo nome
 // Comunicagli se può partecipare o no alla festa.
-var invitati = ["paolo", "fabio" , "lorenzo"];
-var nomeUtente = prompt("Ciao, puoi inserire il tuo nome?");
-var ok = false;
+// var invitati = ["paolo", "fabio" , "lorenzo"];
+// var nomeUtente = prompt("Ciao, puoi inserire il tuo nome?");
+// var ok = false;
+// for (var i = 0; i < invitati.length; i++) {
+//     if ( nomeUtente == invitati[i] ) {
+//       ok = true;
+//     }
+// }
+// if (ok == true) {
+//   document.getElementById("h1").innerHTML = "Ok, sei tra gli invitati"
+// }
+// else {
+// document.getElementById("h1").innerHTML = "Non risulti tra gli invitati"
+// }
 
-for (var i = 0; i < invitati.length; i++) {
-    if (nomeUtente == invitati) {
-      document.getElementById("h1").innerHTML = "Ok, sei tra gli invitati"
-    }
-    else {
-      document.getElementById("h1").innerHTML = "Non risulti tra gli invitati"
-    }
-}
+//           ESERCIZIO 5
+// Crea un array vuoto.
+//  Chiedi per 6 volte all’utente di inserire un numero
+//  Se è dispari inseriscilo nell’array
+// var array = [];
+// for (var i = 0; i < 6; i++) {
+//   var numero = parseInt(prompt("Inserisci un numero"));
+//   if (numero % 2 != 0) {
+//     array.push(numero);
+//   }
+// }
+// document.getElementById("h1").innerHTML = array;
